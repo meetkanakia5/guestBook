@@ -26,6 +26,8 @@ public class GuestEntity {
 
     private int guestId;
     private String name;
+    private String userName;
+    private String avatar_url;
 
     @OneToOne(cascade = CascadeType.ALL)
     private Address guestAddress;
